@@ -1,21 +1,57 @@
 apiVersion: v1
 entries:
-  rucio-server:
+  rucio-daemons:
   - apiVersion: v1
-    created: "2021-09-01T12:20:09.214397168Z"
-    description: A Helm chart to deploy servers for Rucio
-    digest: af6533a23d1ee6d876fe089e0384caf2ffb5593d54e3ef3824d9f25d79f4bbeb
+    created: "2021-09-01T13:17:43.750328471Z"
+    description: A Helm chart to deploy daemons for Rucio
+    digest: 2ad1cdc1a01bbf3cb34e1d7e5a5131bc344c8c0b042d7272006b4327c5e44cb7
     home: https://rucio.cern.ch/
     keywords:
     - data-management
     - science
     maintainers:
-    - email: thomas.beermann@cern.ch
-      name: Thomas Beermann
+    - email: rucio-dev@cern.ch
+      name: Rucio development team
+    name: rucio-daemons
+    sources:
+    - https://github.com/rucio/rucio
+    urls:
+    - https://github.com/bari12/helm-charts/releases/download/rucio-daemons-1.26.0/rucio-daemons-1.26.0.tgz
+    version: 1.26.0
+  rucio-server:
+  - apiVersion: v1
+    created: "2021-09-01T13:17:43.90083879Z"
+    description: A Helm chart to deploy servers for Rucio
+    digest: 317938e624bb52bafc1113c7d180012178b63a0c884018d6f7483d25054a7fbe
+    home: https://rucio.cern.ch/
+    keywords:
+    - data-management
+    - science
+    maintainers:
+    - email: rucio-dev@cern.ch
+      name: Rucio development team
     name: rucio-server
     sources:
     - https://github.com/rucio/rucio
     urls:
     - https://github.com/bari12/helm-charts/releases/download/rucio-server-1.26.1/rucio-server-1.26.1.tgz
     version: 1.26.1
-generated: "2021-09-01T12:20:09.214410768Z"
+  rucio-ui:
+  - apiVersion: v1
+    created: "2021-09-01T13:17:44.004663467Z"
+    description: A Helm chart to deploy webui servers for Rucio
+    digest: 0b2ba9c2e48cf41dad1257532602a4d1e6ac12eedb768a91f8d8f40d5dfb08f9
+    home: https://rucio.cern.ch/
+    keywords:
+    - data-management
+    - science
+    maintainers:
+    - email: rucio-dev@cern.ch
+      name: Rucio development team
+    name: rucio-ui
+    sources:
+    - https://github.com/rucio/rucio
+    urls:
+    - https://github.com/bari12/helm-charts/releases/download/rucio-ui-1.26.0/rucio-ui-1.26.0.tgz
+    version: 1.26.0
+generated: "2021-09-01T13:17:44.004672868Z"
