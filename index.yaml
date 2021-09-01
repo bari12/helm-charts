@@ -1,38 +1,10 @@
 apiVersion: v1
 entries:
-  rucio-daemons:
-  - apiVersion: v1
-    created: "2021-09-01T12:19:40.084605415Z"
-    description: A Helm chart to deploy daemons for Rucio
-    digest: c7bb1912c313f08bc93f7f4b0df419b6f9320ff21278114ec33ec9a3181de13f
-    home: https://rucio.cern.ch/
-    keywords:
-    - data-management
-    - science
-    maintainers:
-    - email: thomas.beermann@cern.ch
-      name: Thomas Beermann
-    name: rucio-daemons
-    sources:
-    - https://github.com/rucio/rucio
-    urls:
-    - https://github.com/bari12/helm-charts/releases/download/rucio-daemons-1.26.0/rucio-daemons-1.26.0.tgz
-    version: 1.26.0
-  rucio-probes:
-  - apiVersion: v1
-    appVersion: "1.0"
-    created: "2021-09-01T12:19:40.187747489Z"
-    description: Helm chart for probe cron jobs needed in Rucio
-    digest: 0d7846bbd5b54d787ddc0e7eda6e2e2ee45e9430818599d565af30e563cf1be6
-    name: rucio-probes
-    urls:
-    - https://github.com/bari12/helm-charts/releases/download/rucio-probes-1.26.0/rucio-probes-1.26.0.tgz
-    version: 1.26.0
   rucio-server:
   - apiVersion: v1
-    created: "2021-09-01T12:19:40.302139779Z"
+    created: "2021-09-01T12:20:09.214397168Z"
     description: A Helm chart to deploy servers for Rucio
-    digest: faee8bedba94b2581625b144beb4c550593dd3674293ba5b574e0404459f0b10
+    digest: af6533a23d1ee6d876fe089e0384caf2ffb5593d54e3ef3824d9f25d79f4bbeb
     home: https://rucio.cern.ch/
     keywords:
     - data-management
@@ -44,24 +16,6 @@ entries:
     sources:
     - https://github.com/rucio/rucio
     urls:
-    - https://github.com/bari12/helm-charts/releases/download/rucio-server-1.26.0/rucio-server-1.26.0.tgz
-    version: 1.26.0
-  rucio-ui:
-  - apiVersion: v1
-    created: "2021-09-01T12:19:40.418881913Z"
-    description: A Helm chart to deploy webui servers for Rucio
-    digest: 7607394590bfd277c0f753cef5ed82eb0e98af3f2ffdd9e975077371f7c1c924
-    home: https://rucio.cern.ch/
-    keywords:
-    - data-management
-    - science
-    maintainers:
-    - email: thomas.beermann@cern.ch
-      name: Thomas Beermann
-    name: rucio-ui
-    sources:
-    - https://github.com/rucio/rucio
-    urls:
-    - https://github.com/bari12/helm-charts/releases/download/rucio-ui-1.26.0/rucio-ui-1.26.0.tgz
-    version: 1.26.0
-generated: "2021-09-01T12:19:40.418887513Z"
+    - https://github.com/bari12/helm-charts/releases/download/rucio-server-1.26.1/rucio-server-1.26.1.tgz
+    version: 1.26.1
+generated: "2021-09-01T12:20:09.214410768Z"
